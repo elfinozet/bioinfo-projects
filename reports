@@ -1,0 +1,45 @@
+Reports
+In this project, we tried to construct and implement biological functions by using Python language. Seven different function that contains the represenation of biological processes. Above, there are descriptive explanations for each project.
+
+1-DNA extraction.
+The first project contains DNA extraction from given data. The gene id and its representative data related within a dictionary.
+The print code of genome_id gives us the result for the sequence information.
+
+
+2-Replication of DNA
+DNA is a double stranded molecule. When we enconter with DNA sequence data , it generally gives us the information for 5' to 3' end of one strand. The other strand or complementary strand follows 3' to 5' order. So we can predict the complementary strand by using maketrans command from translation of A to T, T to A, G to C and C to G. 
+
+3-Transcription of DNA to RNA. 
+According to central dogma model, DNA molecules turns into m-RNA in order to produce protein. The four bases in DNA (A,T,C,G) transcribes into by just changing Thymine into Urasil. In this project we transcribed the Thymine into Urasil at given sequences by using string(maketrans) command.
+
+4-Translation of Protein
+According to central dogma, transribed mrna translated into aminoacids which is the reason for protein formation. 
+In order to functionlize this process in python, we created a dictionary for mrna sequences which detect triplets (codons) corresponding to aminoacids. At given sequences it detects every three nucleotide into single aminoacids.
+
+5-Mutation Rate
+Mutation or difference in the reference genome occurs in nature. In order to calcuate the percentage of alteration we created a code for
+detects the original and mutated length of genome, if the length of two sequences is equal then at given differences we can calculate mutation rate by: (difference/length)*100
+
+6-Regulatory Elements
+Genome consists of multiple regulotory elements like TATA box in prokaryotes, promoters, enchancers besides the gene itself. 
+We assigned TATA box, promoters and enhancers with different sequences and looked for pattern at given sequences. 
+
+7-Phylogenetic Tree
+According to matrices, we can detect the temporal relationship to the origin of species in other words evolutional relationship between species at given sequences. We extracted five different sequences for Alpha 1B Glycoprotein mrna for Homo sapiens (NM_130786.4),Bos Taurus (NM_001046243.2),Felis Catus(XM_023245762.2), Canis Lupus(XM_005616028.4) and Macaca Mulatta(XM_028839150.1) We used  biopython and mathplotlib modules to draw pyhlogenetic tree.
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001046243.2
+https://www.ncbi.nlm.nih.gov/nuccore/XM_028839150.1
+https://www.ncbi.nlm.nih.gov/nuccore/NM_130786.4?report=fasta
+https://www.ncbi.nlm.nih.gov/nuccore/XM_023245762.2
+https://www.ncbi.nlm.nih.gov/nuccore/XM_005616028.4
+
+
+
+
+	
+
+	
+	
+	
+
+
+
